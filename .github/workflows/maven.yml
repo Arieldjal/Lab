@@ -19,14 +19,8 @@ jobs:
 
         include:
           - os: macos-latest
-            TARGET: x86_64-apple-darwin
-            COMPILER: clang
-            LINKER: clang
 
           - os: ubuntu-latest
-            TARGET: armv7-unknown-linux-musleabihf
-            COMPILER: arm-linux-gnueabihf-gcc-5
-            LINKER: gcc-5-arm-linux-gnueabihf
 
           - os: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
